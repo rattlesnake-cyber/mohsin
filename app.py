@@ -7,7 +7,7 @@ app=Flask(__name__)
 @app.route('/')
 def welcome():
     return "welcome to the flask"
-
+"""
 @app.route('/cal', methods=["GET"])
 def math_operator():
     operation=request.json["operation"]
@@ -22,12 +22,14 @@ elif operation=="divide":
      result=number1/number2
 else:
      result=number1-number2
-     return result
+     """
 
 print(__name__)
 
 if__name__='__main__'
 app.run(debug=True)
+
+
 
 
 
